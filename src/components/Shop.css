@@ -1,0 +1,16 @@
+.product_list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product_tile {
+    padding: 4px;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    flex-basis: 33%;
+}
+
+.thumbnail_large {
+    max-height: 100px;
+}
